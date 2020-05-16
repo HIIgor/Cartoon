@@ -21,17 +21,17 @@ class CTBaseViewController: UIViewController {
             automaticallyAdjustsScrollViewInsets = false
         }
         
-        setupLayou()
+        setupLayout()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        
+        configNavBar()
     }
     
     //    abstract func
-    func setupLayou () {}
+    func setupLayout () {}
     
     func configNavBar () {
         guard let nav = navigationController as? CTNavigationController else { return }
