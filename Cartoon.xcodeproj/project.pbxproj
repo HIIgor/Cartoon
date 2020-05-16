@@ -11,6 +11,20 @@
 		9788E649F80C5F947BC24005 /* Pods_Cartoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCA04A6FAB666425E19F203 /* Pods_Cartoon.framework */; };
 		E74820C1246B8A7300B16664 /* CTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C0246B8A7300B16664 /* CTNavigationController.swift */; };
 		E74820C3246B8F6D00B16664 /* CTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */; };
+		E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C4246B92BE00B16664 /* CTPageViewController.swift */; };
+		E74820C7246D0BAD00B16664 /* CTHomeRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */; };
+		E74820CB246D0BDF00B16664 /* CTHomeVIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */; };
+		E74820CD246D0BF000B16664 /* CTHomeSubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */; };
+		E74820CF246D0BFE00B16664 /* CTHomeRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */; };
+		E74820D1246D5C1600B16664 /* CTSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820D0246D5C1500B16664 /* CTSearchViewController.swift */; };
+		E74820D7246D7C4300B16664 /* CTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820D6246D7C4300B16664 /* CTModel.swift */; };
+		E74820DA246D7F1500B16664 /* CTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820D9246D7F1400B16664 /* CTAPI.swift */; };
+		E74820DD246DA1EC00B16664 /* CTComicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820DC246DA1EB00B16664 /* CTComicCollectionViewCell.swift */; };
+		E74820DF246DA20600B16664 /* CTBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820DE246DA20600B16664 /* CTBoardCollectionViewCell.swift */; };
+		E74820E3246DA87300B16664 /* CTBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E2246DA87300B16664 /* CTBaseCollectionReusableView.swift */; };
+		E74820E5246DA8F000B16664 /* CTComicCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E4246DA8F000B16664 /* CTComicCollectionHeaderView.swift */; };
+		E74820E7246DA8FE00B16664 /* CTComicCollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E6246DA8FE00B16664 /* CTComicCollectionFooterView.swift */; };
+		E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */; };
 		E77583D5245C64020077AFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583D4245C64020077AFDC /* AppDelegate.swift */; };
 		E77583DE245C64030077AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77583DD245C64030077AFDC /* Assets.xcassets */; };
 		E77583EC245C64030077AFDC /* CartoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583EB245C64030077AFDC /* CartoonTests.swift */; };
@@ -71,6 +85,20 @@
 		E5342D59F06D31C4FB334F05 /* Pods-CartoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonTests.release.xcconfig"; path = "Target Support Files/Pods-CartoonTests/Pods-CartoonTests.release.xcconfig"; sourceTree = "<group>"; };
 		E74820C0246B8A7300B16664 /* CTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTNavigationController.swift; sourceTree = "<group>"; };
 		E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseViewController.swift; sourceTree = "<group>"; };
+		E74820C4246B92BE00B16664 /* CTPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTPageViewController.swift; sourceTree = "<group>"; };
+		E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeRecommendViewController.swift; sourceTree = "<group>"; };
+		E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeVIPViewController.swift; sourceTree = "<group>"; };
+		E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeSubscribeViewController.swift; sourceTree = "<group>"; };
+		E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeRankViewController.swift; sourceTree = "<group>"; };
+		E74820D0246D5C1500B16664 /* CTSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSearchViewController.swift; sourceTree = "<group>"; };
+		E74820D6246D7C4300B16664 /* CTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTModel.swift; sourceTree = "<group>"; };
+		E74820D9246D7F1400B16664 /* CTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAPI.swift; sourceTree = "<group>"; };
+		E74820DC246DA1EB00B16664 /* CTComicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74820DE246DA20600B16664 /* CTBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		E74820E2246DA87300B16664 /* CTBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		E74820E4246DA8F000B16664 /* CTComicCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicCollectionHeaderView.swift; sourceTree = "<group>"; };
+		E74820E6246DA8FE00B16664 /* CTComicCollectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicCollectionFooterView.swift; sourceTree = "<group>"; };
+		E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		E77583D1245C64020077AFDC /* 有妖气呀.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "有妖气呀.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77583D4245C64020077AFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77583DD245C64030077AFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,8 +191,63 @@
 			children = (
 				E74820C0246B8A7300B16664 /* CTNavigationController.swift */,
 				E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */,
+				E74820C4246B92BE00B16664 /* CTPageViewController.swift */,
+				E74820D0246D5C1500B16664 /* CTSearchViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E74820D2246D616600B16664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E74820D5246D7BF400B16664 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E74820D6246D7C4300B16664 /* CTModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E74820D8246D7F0900B16664 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E74820D9246D7F1400B16664 /* CTAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E74820DB246DA1C100B16664 /* recommend */ = {
+			isa = PBXGroup;
+			children = (
+				E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */,
+				E74820DC246DA1EB00B16664 /* CTComicCollectionViewCell.swift */,
+				E74820DE246DA20600B16664 /* CTBoardCollectionViewCell.swift */,
+				E74820E4246DA8F000B16664 /* CTComicCollectionHeaderView.swift */,
+				E74820E6246DA8FE00B16664 /* CTComicCollectionFooterView.swift */,
+			);
+			path = recommend;
+			sourceTree = "<group>";
+		};
+		E74820E0246DA83000B16664 /* CTBase */ = {
+			isa = PBXGroup;
+			children = (
+				E74820E1246DA84500B16664 /* View */,
+				E74820BF246B8A1900B16664 /* Controller */,
+			);
+			path = CTBase;
+			sourceTree = "<group>";
+		};
+		E74820E1246DA84500B16664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E74820E2246DA87300B16664 /* CTBaseCollectionReusableView.swift */,
+				E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E77583C8245C64020077AFDC = {
@@ -192,7 +275,9 @@
 		E77583D3245C64020077AFDC /* Cartoon */ = {
 			isa = PBXGroup;
 			children = (
-				E74820BF246B8A1900B16664 /* Controller */,
+				E74820E0246DA83000B16664 /* CTBase */,
+				E74820D8246D7F0900B16664 /* API */,
+				E74820D5246D7BF400B16664 /* Model */,
 				E7939CA9245F13D200F08391 /* Me */,
 				E7939CA8245F13AF00F08391 /* Bookshelf */,
 				E7939CA7245F13A400F08391 /* Category */,
@@ -317,7 +402,11 @@
 		E7939CA6245F139000F08391 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E74820DB246DA1C100B16664 /* recommend */,
 				E7939CAA245F140000F08391 /* HomeViewController.swift */,
+				E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */,
+				E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */,
+				E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -325,6 +414,7 @@
 		E7939CA7245F13A400F08391 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E74820D2246D616600B16664 /* View */,
 				E7939CAC245F140800F08391 /* CategoryViewController.swift */,
 			);
 			path = Category;
@@ -584,28 +674,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7939C97245F102F00F08391 /* UIImageExtensions.swift in Sources */,
+				E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */,
 				E7939C94245F102F00F08391 /* UIViewExtension.swift in Sources */,
 				E7939C9C245F102F00F08391 /* UEmptyDataSet.swift in Sources */,
+				E74820DA246D7F1500B16664 /* CTAPI.swift in Sources */,
+				E74820E7246DA8FE00B16664 /* CTComicCollectionFooterView.swift in Sources */,
 				E7939CAF245F141100F08391 /* BookViewController.swift in Sources */,
+				E74820CF246D0BFE00B16664 /* CTHomeRankViewController.swift in Sources */,
+				E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */,
 				E7939C91245F102F00F08391 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				E74820C7246D0BAD00B16664 /* CTHomeRecommendViewController.swift in Sources */,
 				E7939CB1245F141800F08391 /* MineViewController.swift in Sources */,
 				E7939C9D245F102F00F08391 /* UHairPowder.swift in Sources */,
+				E74820D1246D5C1600B16664 /* CTSearchViewController.swift in Sources */,
 				E7939C9A245F102F00F08391 /* DictionaryExtension.swift in Sources */,
 				E7939C9E245F102F00F08391 /* ParallaxHeaderMode.swift in Sources */,
+				E74820DF246DA20600B16664 /* CTBoardCollectionViewCell.swift in Sources */,
 				E7939CAB245F140000F08391 /* HomeViewController.swift in Sources */,
 				E74820C3246B8F6D00B16664 /* CTBaseViewController.swift in Sources */,
 				E74820C1246B8A7300B16664 /* CTNavigationController.swift in Sources */,
 				E7939CAD245F140800F08391 /* CategoryViewController.swift in Sources */,
+				E74820E3246DA87300B16664 /* CTBaseCollectionReusableView.swift in Sources */,
 				E77583D5245C64020077AFDC /* AppDelegate.swift in Sources */,
 				E7939C93245F102F00F08391 /* UIColorExtension.swift in Sources */,
 				E7939CA5245F114600F08391 /* LBUGlobal.swift in Sources */,
 				E7939CA0245F102F00F08391 /* ParallaxHeader.swift in Sources */,
 				E7939C9B245F102F00F08391 /* URefresh.swift in Sources */,
+				E74820CD246D0BF000B16664 /* CTHomeSubscribeViewController.swift in Sources */,
+				E74820CB246D0BDF00B16664 /* CTHomeVIPViewController.swift in Sources */,
+				E74820D7246D7C4300B16664 /* CTModel.swift in Sources */,
 				E7939C95245F102F00F08391 /* UIBarButtonItemExtension.swift in Sources */,
 				E7939C96245F102F00F08391 /* UIDeviceExtension.swift in Sources */,
 				E7939CA3245F108A00F08391 /* TabBarController.swift in Sources */,
 				E7939CA1245F102F00F08391 /* UNoticeBar.swift in Sources */,
+				E74820E5246DA8F000B16664 /* CTComicCollectionHeaderView.swift in Sources */,
 				E7939C98245F102F00F08391 /* DispatchQueueExtension.swift in Sources */,
+				E74820DD246DA1EC00B16664 /* CTComicCollectionViewCell.swift in Sources */,
 				E7939C90245F102F00F08391 /* UCollectionViewAlignedLayout.swift in Sources */,
 				E7939C99245F102F00F08391 /* StringExtension.swift in Sources */,
 				E7939C9F245F102F00F08391 /* UIScrollView+ParallaxHeader.swift in Sources */,

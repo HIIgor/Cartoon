@@ -14,30 +14,32 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor.background
-        addChild("tab_home", "tab_home_S", HomeViewController.self)
-        addChild("tab_class", "tab_class_S", CategoryViewController.self)
-        addChild("tab_book", "tab_book_S", BookViewController.self)
-        addChild("tab_mine", "tab_mine_S", MineViewController.self)
+        let homePageVC = HomeViewController(titles: ["推荐", "VIP", "订阅", "排行"],
+                                              vcs: [CTHomeRecommendViewController(),
+                                                    CTHomeVIPViewController(),
+                                                    CTHomeSubscribeViewController(),
+                                                    CTHomeRankViewController()],
+                                              pageStyle: .navigationBarSegment)
+        addChild("tab_home", "tab_home_S", homePageVC)
+        addChild("tab_class", "tab_class_S", CategoryViewController())
+        addChild("tab_book", "tab_book_S", BookViewController())
+        addChild("tab_mine", "tab_mine_S", MineViewController())
     }
     
 
     func addChild(_ image: String,
                   _ selectedImage: String,
-                  _ vcType: UIViewController.Type) {
-        let child = UINavigationController(rootViewController: vcType.init())
+                  _ viewController: UIViewController) {
+        let child = CTNavigationController(rootViewController: viewController)
         child.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: image)?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), selectedImage: UIImage(named: selectedImage)?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal))
         child.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
         addChild(child)
     }
-    
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension TabBarController {
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        guard let select = selectedViewController else { return .lightContent }
+        return select.preferredStatusBarStyle
     }
-    */
-
 }
