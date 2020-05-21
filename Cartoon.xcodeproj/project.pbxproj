@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		208E5DF37CD14D717EE13032 /* Pods_Cartoon_CartoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1CB7995B1B867F6A2B3994 /* Pods_Cartoon_CartoonUITests.framework */; };
 		9788E649F80C5F947BC24005 /* Pods_Cartoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCA04A6FAB666425E19F203 /* Pods_Cartoon.framework */; };
+		E703BC6C2471898100D74D65 /* CTSpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703BC6B2471898100D74D65 /* CTSpecialViewController.swift */; };
+		E703BC6E2471898B00D74D65 /* CTUpdateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E703BC6D2471898B00D74D65 /* CTUpdateListViewController.swift */; };
+		E721FCD1247299ED00B2BECE /* CTUpdateTVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721FCD0247299ED00B2BECE /* CTUpdateTVTableViewCell.swift */; };
+		E721FCD32472AE7900B2BECE /* CTComicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721FCD22472AE7900B2BECE /* CTComicViewController.swift */; };
 		E74820C1246B8A7300B16664 /* CTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C0246B8A7300B16664 /* CTNavigationController.swift */; };
 		E74820C3246B8F6D00B16664 /* CTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */; };
 		E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C4246B92BE00B16664 /* CTPageViewController.swift */; };
@@ -27,8 +30,8 @@
 		E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */; };
 		E77583D5245C64020077AFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583D4245C64020077AFDC /* AppDelegate.swift */; };
 		E77583DE245C64030077AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77583DD245C64030077AFDC /* Assets.xcassets */; };
-		E77583EC245C64030077AFDC /* CartoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583EB245C64030077AFDC /* CartoonTests.swift */; };
-		E77583F7245C64030077AFDC /* CartoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583F6245C64030077AFDC /* CartoonUITests.swift */; };
+		E77C6C14246FA6D6001A9C8D /* CTWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */; };
+		E78FF0462476193D00FE60B1 /* CTHomeSubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FF0452476193D00FE60B1 /* CTHomeSubscribeViewController.swift */; };
 		E7939C90245F102F00F08391 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939C78245F102F00F08391 /* UCollectionViewAlignedLayout.swift */; };
 		E7939C91245F102F00F08391 /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939C79245F102F00F08391 /* UCollectionViewSectionBackgroundLayout.swift */; };
 		E7939C92245F102F00F08391 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939C7B245F102F00F08391 /* ArrayExtensions.swift */; };
@@ -53,25 +56,11 @@
 		E7939CAD245F140800F08391 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CAC245F140800F08391 /* CategoryViewController.swift */; };
 		E7939CAF245F141100F08391 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CAE245F141100F08391 /* BookViewController.swift */; };
 		E7939CB1245F141800F08391 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CB0245F141800F08391 /* MineViewController.swift */; };
-		EFAB4FF1C58180AA8B16C80C /* Pods_CartoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFABB2173B84882AFB00C7D /* Pods_CartoonTests.framework */; };
+		E7CD22E42471910100B570AB /* CTBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */; };
+		E7CD22E6247191C400B570AB /* CTSpecialTVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E5247191C400B570AB /* CTSpecialTVTableViewCell.swift */; };
+		E7CD22E82472292400B570AB /* CTComicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E72472292400B570AB /* CTComicListViewController.swift */; };
+		E7CD22EA24724EAE00B570AB /* CTComicTVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E924724EAE00B570AB /* CTComicTVTableViewCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E77583E8245C64030077AFDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E77583C9245C64020077AFDC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E77583D0245C64020077AFDC;
-			remoteInfo = Cartoon;
-		};
-		E77583F3245C64030077AFDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E77583C9245C64020077AFDC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E77583D0245C64020077AFDC;
-			remoteInfo = Cartoon;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3FF703BDD0CE3DFA23BE9FD7 /* Pods-Cartoon-CartoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartoon-CartoonUITests.release.xcconfig"; path = "Target Support Files/Pods-Cartoon-CartoonUITests/Pods-Cartoon-CartoonUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +72,10 @@
 		BCDECA8A7B3B29E1571A36EA /* Pods-CartoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonTests.debug.xcconfig"; path = "Target Support Files/Pods-CartoonTests/Pods-CartoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB98180082E1536E2846B628 /* Pods-Cartoon-CartoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartoon-CartoonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cartoon-CartoonUITests/Pods-Cartoon-CartoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5342D59F06D31C4FB334F05 /* Pods-CartoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonTests.release.xcconfig"; path = "Target Support Files/Pods-CartoonTests/Pods-CartoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E703BC6B2471898100D74D65 /* CTSpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSpecialViewController.swift; sourceTree = "<group>"; };
+		E703BC6D2471898B00D74D65 /* CTUpdateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUpdateListViewController.swift; sourceTree = "<group>"; };
+		E721FCD0247299ED00B2BECE /* CTUpdateTVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTUpdateTVTableViewCell.swift; sourceTree = "<group>"; };
+		E721FCD22472AE7900B2BECE /* CTComicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicViewController.swift; sourceTree = "<group>"; };
 		E74820C0246B8A7300B16664 /* CTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTNavigationController.swift; sourceTree = "<group>"; };
 		E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseViewController.swift; sourceTree = "<group>"; };
 		E74820C4246B92BE00B16664 /* CTPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTPageViewController.swift; sourceTree = "<group>"; };
@@ -103,12 +96,12 @@
 		E77583D4245C64020077AFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77583DD245C64030077AFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77583E2245C64030077AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E77583E7245C64030077AFDC /* CartoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77583EB245C64030077AFDC /* CartoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonTests.swift; sourceTree = "<group>"; };
 		E77583ED245C64030077AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E77583F2245C64030077AFDC /* CartoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77583F6245C64030077AFDC /* CartoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonUITests.swift; sourceTree = "<group>"; };
 		E77583F8245C64030077AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTWebViewController.swift; sourceTree = "<group>"; };
+		E78FF0452476193D00FE60B1 /* CTHomeSubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeSubscribeViewController.swift; sourceTree = "<group>"; };
 		E7939C78245F102F00F08391 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
 		E7939C79245F102F00F08391 /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
 		E7939C7B245F102F00F08391 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
@@ -133,6 +126,10 @@
 		E7939CAC245F140800F08391 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		E7939CAE245F141100F08391 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		E7939CB0245F141800F08391 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseTableViewCell.swift; sourceTree = "<group>"; };
+		E7CD22E5247191C400B570AB /* CTSpecialTVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSpecialTVTableViewCell.swift; sourceTree = "<group>"; };
+		E7CD22E72472292400B570AB /* CTComicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicListViewController.swift; sourceTree = "<group>"; };
+		E7CD22E924724EAE00B570AB /* CTComicTVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicTVTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,22 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9788E649F80C5F947BC24005 /* Pods_Cartoon.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77583E4245C64030077AFDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFAB4FF1C58180AA8B16C80C /* Pods_CartoonTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77583EF245C64030077AFDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				208E5DF37CD14D717EE13032 /* Pods_Cartoon_CartoonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +167,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E703BC6A2471895600D74D65 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */,
+				E703BC6B2471898100D74D65 /* CTSpecialViewController.swift */,
+				E703BC6D2471898B00D74D65 /* CTUpdateListViewController.swift */,
+				E7CD22E72472292400B570AB /* CTComicListViewController.swift */,
+				E721FCD22472AE7900B2BECE /* CTComicViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E703BC6F2471899800D74D65 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E74820DC246DA1EB00B16664 /* CTComicCollectionViewCell.swift */,
+				E74820DE246DA20600B16664 /* CTBoardCollectionViewCell.swift */,
+				E74820E4246DA8F000B16664 /* CTComicCollectionHeaderView.swift */,
+				E74820E6246DA8FE00B16664 /* CTComicCollectionFooterView.swift */,
+				E7CD22E5247191C400B570AB /* CTSpecialTVTableViewCell.swift */,
+				E7CD22E924724EAE00B570AB /* CTComicTVTableViewCell.swift */,
+				E721FCD0247299ED00B2BECE /* CTUpdateTVTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E721FCD42472B0CD00B2BECE /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
 		E74820BF246B8A1900B16664 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +208,7 @@
 				E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */,
 				E74820C4246B92BE00B16664 /* CTPageViewController.swift */,
 				E74820D0246D5C1500B16664 /* CTSearchViewController.swift */,
+				E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,11 +239,8 @@
 		E74820DB246DA1C100B16664 /* recommend */ = {
 			isa = PBXGroup;
 			children = (
-				E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */,
-				E74820DC246DA1EB00B16664 /* CTComicCollectionViewCell.swift */,
-				E74820DE246DA20600B16664 /* CTBoardCollectionViewCell.swift */,
-				E74820E4246DA8F000B16664 /* CTComicCollectionHeaderView.swift */,
-				E74820E6246DA8FE00B16664 /* CTComicCollectionFooterView.swift */,
+				E703BC6F2471899800D74D65 /* view */,
+				E703BC6A2471895600D74D65 /* controller */,
 			);
 			path = recommend;
 			sourceTree = "<group>";
@@ -246,6 +259,7 @@
 			children = (
 				E74820E2246DA87300B16664 /* CTBaseCollectionReusableView.swift */,
 				E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */,
+				E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,8 +280,6 @@
 			isa = PBXGroup;
 			children = (
 				E77583D1245C64020077AFDC /* 有妖气呀.app */,
-				E77583E7245C64030077AFDC /* CartoonTests.xctest */,
-				E77583F2245C64030077AFDC /* CartoonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,6 +320,14 @@
 				E77583F8245C64030077AFDC /* Info.plist */,
 			);
 			path = CartoonUITests;
+			sourceTree = "<group>";
+		};
+		E78FF0442476192400FE60B1 /* subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				E78FF0452476193D00FE60B1 /* CTHomeSubscribeViewController.swift */,
+			);
+			path = subscribe;
 			sourceTree = "<group>";
 		};
 		E7939C75245F0FF800F08391 /* Other */ = {
@@ -402,9 +422,10 @@
 		E7939CA6245F139000F08391 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E78FF0442476192400FE60B1 /* subscribe */,
+				E721FCD42472B0CD00B2BECE /* VIP */,
 				E74820DB246DA1C100B16664 /* recommend */,
 				E7939CAA245F140000F08391 /* HomeViewController.swift */,
-				E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */,
 				E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */,
 				E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */,
 			);
@@ -423,7 +444,8 @@
 		E7939CA8245F13AF00F08391 /* Bookshelf */ = {
 			isa = PBXGroup;
 			children = (
-				E7939CAE245F141100F08391 /* BookViewController.swift */,
+				E7CD22EC2472616B00B570AB /* view */,
+				E7CD22EB2472616500B570AB /* controller */,
 			);
 			path = Bookshelf;
 			sourceTree = "<group>";
@@ -434,6 +456,21 @@
 				E7939CB0245F141800F08391 /* MineViewController.swift */,
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		E7CD22EB2472616500B570AB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7939CAE245F141100F08391 /* BookViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E7CD22EC2472616B00B570AB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,45 +495,6 @@
 			productReference = E77583D1245C64020077AFDC /* 有妖气呀.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E77583E6245C64030077AFDC /* CartoonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E77583FE245C64030077AFDC /* Build configuration list for PBXNativeTarget "CartoonTests" */;
-			buildPhases = (
-				5028D5574A8E0E05BBC36E78 /* [CP] Check Pods Manifest.lock */,
-				E77583E3245C64030077AFDC /* Sources */,
-				E77583E4245C64030077AFDC /* Frameworks */,
-				E77583E5245C64030077AFDC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E77583E9245C64030077AFDC /* PBXTargetDependency */,
-			);
-			name = CartoonTests;
-			productName = CartoonTests;
-			productReference = E77583E7245C64030077AFDC /* CartoonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E77583F1245C64030077AFDC /* CartoonUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E7758401245C64030077AFDC /* Build configuration list for PBXNativeTarget "CartoonUITests" */;
-			buildPhases = (
-				F850A886715C0DC64D5ADC42 /* [CP] Check Pods Manifest.lock */,
-				E77583EE245C64030077AFDC /* Sources */,
-				E77583EF245C64030077AFDC /* Frameworks */,
-				E77583F0245C64030077AFDC /* Resources */,
-				1CE2C12561E9221E666D76F3 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E77583F4245C64030077AFDC /* PBXTargetDependency */,
-			);
-			name = CartoonUITests;
-			productName = CartoonUITests;
-			productReference = E77583F2245C64030077AFDC /* CartoonUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -509,14 +507,6 @@
 				TargetAttributes = {
 					E77583D0245C64020077AFDC = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					E77583E6245C64030077AFDC = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = E77583D0245C64020077AFDC;
-					};
-					E77583F1245C64030077AFDC = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = E77583D0245C64020077AFDC;
 					};
 				};
 			};
@@ -534,8 +524,6 @@
 			projectRoot = "";
 			targets = (
 				E77583D0245C64020077AFDC /* Cartoon */,
-				E77583E6245C64030077AFDC /* CartoonTests */,
-				E77583F1245C64030077AFDC /* CartoonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -549,62 +537,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E77583E5245C64030077AFDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77583F0245C64030077AFDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1CE2C12561E9221E666D76F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cartoon-CartoonUITests/Pods-Cartoon-CartoonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cartoon-CartoonUITests/Pods-Cartoon-CartoonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cartoon-CartoonUITests/Pods-Cartoon-CartoonUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5028D5574A8E0E05BBC36E78 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CartoonTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		61CC4519BE4B3496EBEC1FB1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,28 +579,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F850A886715C0DC64D5ADC42 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cartoon-CartoonUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -678,7 +591,9 @@
 				E7939C94245F102F00F08391 /* UIViewExtension.swift in Sources */,
 				E7939C9C245F102F00F08391 /* UEmptyDataSet.swift in Sources */,
 				E74820DA246D7F1500B16664 /* CTAPI.swift in Sources */,
+				E78FF0462476193D00FE60B1 /* CTHomeSubscribeViewController.swift in Sources */,
 				E74820E7246DA8FE00B16664 /* CTComicCollectionFooterView.swift in Sources */,
+				E7CD22EA24724EAE00B570AB /* CTComicTVTableViewCell.swift in Sources */,
 				E7939CAF245F141100F08391 /* BookViewController.swift in Sources */,
 				E74820CF246D0BFE00B16664 /* CTHomeRankViewController.swift in Sources */,
 				E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */,
@@ -697,6 +612,7 @@
 				E74820E3246DA87300B16664 /* CTBaseCollectionReusableView.swift in Sources */,
 				E77583D5245C64020077AFDC /* AppDelegate.swift in Sources */,
 				E7939C93245F102F00F08391 /* UIColorExtension.swift in Sources */,
+				E77C6C14246FA6D6001A9C8D /* CTWebViewController.swift in Sources */,
 				E7939CA5245F114600F08391 /* LBUGlobal.swift in Sources */,
 				E7939CA0245F102F00F08391 /* ParallaxHeader.swift in Sources */,
 				E7939C9B245F102F00F08391 /* URefresh.swift in Sources */,
@@ -706,47 +622,25 @@
 				E7939C95245F102F00F08391 /* UIBarButtonItemExtension.swift in Sources */,
 				E7939C96245F102F00F08391 /* UIDeviceExtension.swift in Sources */,
 				E7939CA3245F108A00F08391 /* TabBarController.swift in Sources */,
+				E7CD22E82472292400B570AB /* CTComicListViewController.swift in Sources */,
+				E721FCD1247299ED00B2BECE /* CTUpdateTVTableViewCell.swift in Sources */,
 				E7939CA1245F102F00F08391 /* UNoticeBar.swift in Sources */,
 				E74820E5246DA8F000B16664 /* CTComicCollectionHeaderView.swift in Sources */,
 				E7939C98245F102F00F08391 /* DispatchQueueExtension.swift in Sources */,
 				E74820DD246DA1EC00B16664 /* CTComicCollectionViewCell.swift in Sources */,
 				E7939C90245F102F00F08391 /* UCollectionViewAlignedLayout.swift in Sources */,
 				E7939C99245F102F00F08391 /* StringExtension.swift in Sources */,
+				E7CD22E6247191C400B570AB /* CTSpecialTVTableViewCell.swift in Sources */,
+				E703BC6E2471898B00D74D65 /* CTUpdateListViewController.swift in Sources */,
+				E721FCD32472AE7900B2BECE /* CTComicViewController.swift in Sources */,
 				E7939C9F245F102F00F08391 /* UIScrollView+ParallaxHeader.swift in Sources */,
+				E703BC6C2471898100D74D65 /* CTSpecialViewController.swift in Sources */,
 				E7939C92245F102F00F08391 /* ArrayExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77583E3245C64030077AFDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E77583EC245C64030077AFDC /* CartoonTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E77583EE245C64030077AFDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E77583F7245C64030077AFDC /* CartoonUITests.swift in Sources */,
+				E7CD22E42471910100B570AB /* CTBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E77583E9245C64030077AFDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E77583D0245C64020077AFDC /* Cartoon */;
-			targetProxy = E77583E8245C64030077AFDC /* PBXContainerItemProxy */;
-		};
-		E77583F4245C64030077AFDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E77583D0245C64020077AFDC /* Cartoon */;
-			targetProxy = E77583F3245C64030077AFDC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E77583F9245C64030077AFDC /* Debug */ = {
@@ -901,94 +795,6 @@
 			};
 			name = Release;
 		};
-		E77583FF245C64030077AFDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCDECA8A7B3B29E1571A36EA /* Pods-CartoonTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 964MX4TXCF;
-				INFOPLIST_FILE = CartoonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiigor.CartoonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartoon.app/Cartoon";
-			};
-			name = Debug;
-		};
-		E7758400245C64030077AFDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5342D59F06D31C4FB334F05 /* Pods-CartoonTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 964MX4TXCF;
-				INFOPLIST_FILE = CartoonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiigor.CartoonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartoon.app/Cartoon";
-			};
-			name = Release;
-		};
-		E7758402245C64030077AFDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB98180082E1536E2846B628 /* Pods-Cartoon-CartoonUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 964MX4TXCF;
-				INFOPLIST_FILE = CartoonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiigor.CartoonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Cartoon;
-			};
-			name = Debug;
-		};
-		E7758403245C64030077AFDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FF703BDD0CE3DFA23BE9FD7 /* Pods-Cartoon-CartoonUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 964MX4TXCF;
-				INFOPLIST_FILE = CartoonUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hiigor.CartoonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Cartoon;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1006,24 +812,6 @@
 			buildConfigurations = (
 				E77583FC245C64030077AFDC /* Debug */,
 				E77583FD245C64030077AFDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E77583FE245C64030077AFDC /* Build configuration list for PBXNativeTarget "CartoonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E77583FF245C64030077AFDC /* Debug */,
-				E7758400245C64030077AFDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7758401245C64030077AFDC /* Build configuration list for PBXNativeTarget "CartoonUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7758402245C64030077AFDC /* Debug */,
-				E7758403245C64030077AFDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
