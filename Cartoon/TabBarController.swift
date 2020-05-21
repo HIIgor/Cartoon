@@ -13,6 +13,8 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tabBar.isTranslucent = false
+        
         view.backgroundColor = UIColor.background
         let homePageVC = HomeViewController(titles: ["推荐", "VIP", "订阅", "排行"],
                                               vcs: [CTHomeRecommendViewController(),
