@@ -17,7 +17,6 @@
 		E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C4246B92BE00B16664 /* CTPageViewController.swift */; };
 		E74820C7246D0BAD00B16664 /* CTHomeRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */; };
 		E74820CB246D0BDF00B16664 /* CTHomeVIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */; };
-		E74820CD246D0BF000B16664 /* CTHomeSubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */; };
 		E74820CF246D0BFE00B16664 /* CTHomeRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */; };
 		E74820D1246D5C1600B16664 /* CTSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820D0246D5C1500B16664 /* CTSearchViewController.swift */; };
 		E74820D7246D7C4300B16664 /* CTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820D6246D7C4300B16664 /* CTModel.swift */; };
@@ -81,7 +80,6 @@
 		E74820C4246B92BE00B16664 /* CTPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTPageViewController.swift; sourceTree = "<group>"; };
 		E74820C6246D0BAD00B16664 /* CTHomeRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeRecommendViewController.swift; sourceTree = "<group>"; };
 		E74820CA246D0BDF00B16664 /* CTHomeVIPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeVIPViewController.swift; sourceTree = "<group>"; };
-		E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeSubscribeViewController.swift; sourceTree = "<group>"; };
 		E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeRankViewController.swift; sourceTree = "<group>"; };
 		E74820D0246D5C1500B16664 /* CTSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSearchViewController.swift; sourceTree = "<group>"; };
 		E74820D6246D7C4300B16664 /* CTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTModel.swift; sourceTree = "<group>"; };
@@ -426,7 +424,6 @@
 				E721FCD42472B0CD00B2BECE /* VIP */,
 				E74820DB246DA1C100B16664 /* recommend */,
 				E7939CAA245F140000F08391 /* HomeViewController.swift */,
-				E74820CC246D0BF000B16664 /* CTHomeSubscribeViewController.swift */,
 				E74820CE246D0BFE00B16664 /* CTHomeRankViewController.swift */,
 			);
 			path = Home;
@@ -616,7 +613,6 @@
 				E7939CA5245F114600F08391 /* LBUGlobal.swift in Sources */,
 				E7939CA0245F102F00F08391 /* ParallaxHeader.swift in Sources */,
 				E7939C9B245F102F00F08391 /* URefresh.swift in Sources */,
-				E74820CD246D0BF000B16664 /* CTHomeSubscribeViewController.swift in Sources */,
 				E74820CB246D0BDF00B16664 /* CTHomeVIPViewController.swift in Sources */,
 				E74820D7246D7C4300B16664 /* CTModel.swift in Sources */,
 				E7939C95245F102F00F08391 /* UIBarButtonItemExtension.swift in Sources */,
