@@ -20,15 +20,6 @@ target 'Cartoon' do
   pod 'EmptyDataSet-Swift'
   pod 'UINavigation-SXFixSpace'
 
-  # Pods for Cartoon
-
-  target 'CartoonTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'CartoonUITests' do
-    # Pods for testing
-  end
+  pod 'FLEX', :path => '../../../Documents/GitHub/FLEX'
 
 end
