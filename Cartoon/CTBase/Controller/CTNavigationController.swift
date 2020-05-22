@@ -2,7 +2,7 @@
 //  CTNavigationController.swift
 //  Cartoon
 //
-//  Created by 向亚国 on 2020/5/13.
+//  Created by xiangyaguo on 2020/5/13.
 //  Copyright © 2020 HiIgor. All rights reserved.
 //
 

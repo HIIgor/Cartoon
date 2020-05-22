@@ -2,7 +2,7 @@
 //  CTWebViewController.swift
 //  Cartoon
 //
-//  Created by 向亚国 on 2020/5/16.
+//  Created by xiangyaguo on 2020/5/16.
 //  Copyright © 2020 HiIgor. All rights reserved.
 //
 
