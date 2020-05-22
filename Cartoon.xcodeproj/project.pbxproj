@@ -56,6 +56,11 @@
 		E7939CAD245F140800F08391 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CAC245F140800F08391 /* CategoryViewController.swift */; };
 		E7939CAF245F141100F08391 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CAE245F141100F08391 /* BookViewController.swift */; };
 		E7939CB1245F141800F08391 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939CB0245F141800F08391 /* MineViewController.swift */; };
+		E7A827D92477C49500D32C28 /* CTBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A827D82477C49500D32C28 /* CTBaseTableViewHeaderFooterView.swift */; };
+		E7A827DE2477C54B00D32C28 /* CTSearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A827DD2477C54B00D32C28 /* CTSearchHeaderView.swift */; };
+		E7A827E02477C55900D32C28 /* CTSearchFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A827DF2477C55800D32C28 /* CTSearchFooterView.swift */; };
+		E7A827E32477DA9800D32C28 /* CTTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A827E22477DA9800D32C28 /* CTTopCollectionViewCell.swift */; };
+		E7A827E52477DB8400D32C28 /* CTRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A827E42477DB8400D32C28 /* CTRankCollectionViewCell.swift */; };
 		E7CD22E42471910100B570AB /* CTBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */; };
 		E7CD22E6247191C400B570AB /* CTSpecialTVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E5247191C400B570AB /* CTSpecialTVTableViewCell.swift */; };
 		E7CD22E82472292400B570AB /* CTComicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD22E72472292400B570AB /* CTComicListViewController.swift */; };
@@ -126,6 +131,11 @@
 		E7939CAC245F140800F08391 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		E7939CAE245F141100F08391 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		E7939CB0245F141800F08391 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		E7A827D82477C49500D32C28 /* CTBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		E7A827DD2477C54B00D32C28 /* CTSearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSearchHeaderView.swift; sourceTree = "<group>"; };
+		E7A827DF2477C55800D32C28 /* CTSearchFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSearchFooterView.swift; sourceTree = "<group>"; };
+		E7A827E22477DA9800D32C28 /* CTTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7A827E42477DB8400D32C28 /* CTRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTBaseTableViewCell.swift; sourceTree = "<group>"; };
 		E7CD22E5247191C400B570AB /* CTSpecialTVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSpecialTVTableViewCell.swift; sourceTree = "<group>"; };
 		E7CD22E72472292400B570AB /* CTComicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTComicListViewController.swift; sourceTree = "<group>"; };
@@ -216,7 +226,6 @@
 				E74820C0246B8A7300B16664 /* CTNavigationController.swift */,
 				E74820C2246B8F6D00B16664 /* CTBaseViewController.swift */,
 				E74820C4246B92BE00B16664 /* CTPageViewController.swift */,
-				E74820D0246D5C1500B16664 /* CTSearchViewController.swift */,
 				E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */,
 			);
 			path = Controller;
@@ -225,6 +234,8 @@
 		E74820D2246D616600B16664 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7A827E22477DA9800D32C28 /* CTTopCollectionViewCell.swift */,
+				E7A827E42477DB8400D32C28 /* CTRankCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,6 +280,7 @@
 				E74820E2246DA87300B16664 /* CTBaseCollectionReusableView.swift */,
 				E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */,
 				E7CD22E32471910100B570AB /* CTBaseTableViewCell.swift */,
+				E7A827D82477C49500D32C28 /* CTBaseTableViewHeaderFooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -431,6 +443,7 @@
 		E7939CA6245F139000F08391 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E7A827DA2477C4E600D32C28 /* search */,
 				E70FC9132476CE340034BF67 /* rank */,
 				E78FF0442476192400FE60B1 /* subscribe */,
 				E721FCD42472B0CD00B2BECE /* VIP */,
@@ -443,8 +456,8 @@
 		E7939CA7245F13A400F08391 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E7A827E12477DA6E00D32C28 /* controller */,
 				E74820D2246D616600B16664 /* View */,
-				E7939CAC245F140800F08391 /* CategoryViewController.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -464,6 +477,40 @@
 				E7939CB0245F141800F08391 /* MineViewController.swift */,
 			);
 			path = Me;
+			sourceTree = "<group>";
+		};
+		E7A827DA2477C4E600D32C28 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				E7A827DC2477C51D00D32C28 /* view */,
+				E7A827DB2477C50400D32C28 /* controller */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		E7A827DB2477C50400D32C28 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74820D0246D5C1500B16664 /* CTSearchViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E7A827DC2477C51D00D32C28 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7A827DD2477C54B00D32C28 /* CTSearchHeaderView.swift */,
+				E7A827DF2477C55800D32C28 /* CTSearchFooterView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E7A827E12477DA6E00D32C28 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7939CAC245F140800F08391 /* CategoryViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		E7CD22EB2472616500B570AB /* controller */ = {
@@ -596,6 +643,7 @@
 			files = (
 				E7939C97245F102F00F08391 /* UIImageExtensions.swift in Sources */,
 				E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */,
+				E7A827E32477DA9800D32C28 /* CTTopCollectionViewCell.swift in Sources */,
 				E7939C94245F102F00F08391 /* UIViewExtension.swift in Sources */,
 				E7939C9C245F102F00F08391 /* UEmptyDataSet.swift in Sources */,
 				E74820DA246D7F1500B16664 /* CTAPI.swift in Sources */,
@@ -604,14 +652,18 @@
 				E7CD22EA24724EAE00B570AB /* CTComicTVTableViewCell.swift in Sources */,
 				E7939CAF245F141100F08391 /* BookViewController.swift in Sources */,
 				E74820C5246B92BE00B16664 /* CTPageViewController.swift in Sources */,
+				E7A827E52477DB8400D32C28 /* CTRankCollectionViewCell.swift in Sources */,
 				E7939C91245F102F00F08391 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
 				E74820C7246D0BAD00B16664 /* CTHomeRecommendViewController.swift in Sources */,
 				E7939CB1245F141800F08391 /* MineViewController.swift in Sources */,
 				E7939C9D245F102F00F08391 /* UHairPowder.swift in Sources */,
 				E74820D1246D5C1600B16664 /* CTSearchViewController.swift in Sources */,
 				E7939C9A245F102F00F08391 /* DictionaryExtension.swift in Sources */,
+				E7A827D92477C49500D32C28 /* CTBaseTableViewHeaderFooterView.swift in Sources */,
 				E7939C9E245F102F00F08391 /* ParallaxHeaderMode.swift in Sources */,
 				E74820DF246DA20600B16664 /* CTBoardCollectionViewCell.swift in Sources */,
+				E7A827DE2477C54B00D32C28 /* CTSearchHeaderView.swift in Sources */,
+				E7A827E02477C55900D32C28 /* CTSearchFooterView.swift in Sources */,
 				E7939CAB245F140000F08391 /* HomeViewController.swift in Sources */,
 				E74820C3246B8F6D00B16664 /* CTBaseViewController.swift in Sources */,
 				E74820C1246B8A7300B16664 /* CTNavigationController.swift in Sources */,
