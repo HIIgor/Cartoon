@@ -1,4 +1,6 @@
 # Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '9.0'
 
 target 'Cartoon' do
@@ -19,6 +21,10 @@ target 'Cartoon' do
   pod 'IQKeyboardManagerSwift'
   pod 'EmptyDataSet-Swift'
   pod 'UINavigation-SXFixSpace'
+
+
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
 
   pod 'FLEX', :path => '../../../Documents/GitHub/FLEX'
 
