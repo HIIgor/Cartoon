@@ -30,6 +30,7 @@
 		E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74820E8246E381000B16664 /* CTBaseCollectionViewCell.swift */; };
 		E77583D5245C64020077AFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77583D4245C64020077AFDC /* AppDelegate.swift */; };
 		E77583DE245C64030077AFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77583DD245C64030077AFDC /* Assets.xcassets */; };
+		E7786138247A542C006853C0 /* CTMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7786137247A542C006853C0 /* CTMineHeaderView.swift */; };
 		E77C6C14246FA6D6001A9C8D /* CTWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */; };
 		E78FF0462476193D00FE60B1 /* CTHomeSubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FF0452476193D00FE60B1 /* CTHomeSubscribeViewController.swift */; };
 		E7939C90245F102F00F08391 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7939C78245F102F00F08391 /* UCollectionViewAlignedLayout.swift */; };
@@ -105,6 +106,7 @@
 		E77583ED245C64030077AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77583F6245C64030077AFDC /* CartoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonUITests.swift; sourceTree = "<group>"; };
 		E77583F8245C64030077AFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7786137247A542C006853C0 /* CTMineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMineHeaderView.swift; sourceTree = "<group>"; };
 		E77C6C13246FA6D6001A9C8D /* CTWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTWebViewController.swift; sourceTree = "<group>"; };
 		E78FF0452476193D00FE60B1 /* CTHomeSubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTHomeSubscribeViewController.swift; sourceTree = "<group>"; };
 		E7939C78245F102F00F08391 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
@@ -343,6 +345,22 @@
 			path = CartoonUITests;
 			sourceTree = "<group>";
 		};
+		E7786135247A53CC006853C0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7939CB0245F141800F08391 /* MineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E7786136247A5412006853C0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7786137247A542C006853C0 /* CTMineHeaderView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		E78FF0442476192400FE60B1 /* subscribe */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,7 +492,8 @@
 		E7939CA9245F13D200F08391 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				E7939CB0245F141800F08391 /* MineViewController.swift */,
+				E7786136247A5412006853C0 /* view */,
+				E7786135247A53CC006853C0 /* controller */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -644,6 +663,7 @@
 				E7939C97245F102F00F08391 /* UIImageExtensions.swift in Sources */,
 				E74820E9246E381000B16664 /* CTBaseCollectionViewCell.swift in Sources */,
 				E7A827E32477DA9800D32C28 /* CTTopCollectionViewCell.swift in Sources */,
+				E7786138247A542C006853C0 /* CTMineHeaderView.swift in Sources */,
 				E7939C94245F102F00F08391 /* UIViewExtension.swift in Sources */,
 				E7939C9C245F102F00F08391 /* UEmptyDataSet.swift in Sources */,
 				E74820DA246D7F1500B16664 /* CTAPI.swift in Sources */,
