@@ -22,9 +22,12 @@ class TabBarController: UITabBarController {
                                                     CTHomeSubscribeViewController(),
                                                     CTHomeRankViewController()],
                                               pageStyle: .navigationBarSegment)
+        let bookPageVC = BookViewController(titles: ["收藏",
+        "书单",
+        "下载"], vcs: [CTBaseViewController(), CTBaseViewController(), CTBaseViewController()], pageStyle: .navigationBarSegment)
         addChild("tab_home", "tab_home_S", homePageVC)
         addChild("tab_class", "tab_class_S", CategoryViewController())
-        addChild("tab_book", "tab_book_S", BookViewController())
+        addChild("tab_book", "tab_book_S", bookPageVC)
         addChild("tab_mine", "tab_mine_S", MineViewController())
     }
     
