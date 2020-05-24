@@ -2,7 +2,7 @@
 //  BookselfViewController.swift
 //  Cartoon
 //
-//  Created by xiangyaguo on 2020/5/3.
+//  Created by HiIgoor on 2020/5/3.
 //  Copyright © 2020 HiIgor. All rights reserved.
 //
 
@@ -31,7 +31,7 @@ class BookViewController: CTPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        setupLoadData()
     }
     
     private func setupLoadData() {

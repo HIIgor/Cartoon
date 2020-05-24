@@ -57,7 +57,7 @@ enum CTNavigationBarStyle {
     case theme, clear, white
 }
 
-extension CTNavigationController {
+extension UINavigationController {
     private struct AssocatedKeys {
         static var disablePopGesture: Void?
     }
